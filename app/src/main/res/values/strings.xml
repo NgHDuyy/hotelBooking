@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">MyBookingHotel</string>
+
+    <string name="txt_home">Home</string>
+    <string name="txt_recommend">Recommend</string>
+    <string name="txt_favorite">Favorite</string>
+    <string name="txt_account">Account</string>
+
+    <string name="txt_find_room">Find location, hotel</string>
+    <string name="txt_booking_description">Flexible booking, best price</string>
+    <string name="txt_near_you">Near you</string>
+    <string name="txt_hourly">Hourly</string>
+    <string name="txt_overnight">Overnight</string>
+    <string name="txt_by_date">By date</string>
+
+    <string name="txt_login_register">Log in/ Register</string>
+    <string name="txt_log_in">LOG IN</string>
+    <string name="txt_have_not_account">You don\'t have account yet?</string>
+    <string name="txt_register">Register</string>
+    <string name="txt_register_now">Register now</string>
+
+    <string name="txt_email">Email</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_re_password">Confirm password</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_phone_number">Phone number</string>
+
+    <string name="txt_invalidate_name">Name is empty</string>
+    <string name="txt_invalidate_phone">Invalidate phone number</string>
+    <string name="txt_invalidate_email">Invalidate email</string>
+    <string name="txt_invalidate_password">Invalidate password</string>
+    <string name="txt_invalidate_re_password">Password incorrect</string>
+
+    <string name="txt_register_fail">Account already exits</string>
+    <string name="txt_register_success">Register success</string>
+
+    <string name="txt_login_fail">Email or password incorrect</string>
+    <string name="txt_login_success">Login success</string>
+
+    <string name="txt_my_page">My page</string>
+    <string name="txt_my_booking">My booking</string>
+    <string name="txt_my_favorite">My favorite hotel</string>
+
+    <string name="txt_setting">Setting</string>
+    <string name="txt_notification">Notification</string>
+    <string name="txt_language">Language</string>
+
+    <string name="txt_information">Information</string>
+    <string name="txt_version">Version</string>
+    <string name="txt_contact">Contact</string>
+    <string name="txt_log_out">Log out</string>
+
+    <string name="select_edition">Select language</string>
+
+    <string name="english" translatable="false">English</string>
+    <string name="vietnam" translatable="false">Tiếng Việt</string>
+
+    <string name="txt_find">Find</string>
+    <string name="txt_recent_search">Recent search</string>
+    <string name="txt_find_location">Find location</string>
+
+    <string name="txt_Ha_Noi">Ha Noi</string>
+    <string name="txt_choose_location">Please choose location</string>
+    <string name="txt_intro">Introduce</string>
+    <string name="txt_choose_room">Choose room</string>
+    <string name="txt_list_room">List room</string>
+    <string name="txt_room_info">Room information</string>
+    <string name="txt_see_more">See more</string>
+    <string name="txt_book">Book</string>
+    <string name="single_bed">Single bed</string>
+    <string name="double_bed">Double bed</string>
+    <string name="txt_tax">Tax and service included</string>
+    <string name="txt_result_search">Result search</string>
+    <string name="txt_type_bed">Type of bed</string>
+    <string name="txt_quantity_people">Max quantity people</string>
+    <string name="txt_on_backpress">Redo to exit!</string>
+    <string name="txt_phone">Phone</string>
+    <string name="txt_incorrect_phone">Phone number is incorrect</string>
+    <string name="txt_incorrect_password">Password is incorrect</string>
+    <string name="txt_booking">Book room</string>
+    <string name="txt_user_info">User information</string>
+    <string name="txt_from">From:</string>
+    <string name="txt_to">To:</string>
+    <string name="txt_pay_by_card">Payment by bank card</string>
+    <string name="txt_pay_in_cash">Payment in cash</string>
+    <string name="txt_choose_type_pay">Select a payment method</string>
+    <string name="txt_confirm_book">Do you confirm booking?</string>
+    <string name="txt_cancle">Cancle</string>
+    <string name="txt_confirm">Confirm</string>
+    <string name="txt_choose_card">Choose your card</string>
+    <string name="txt_card_name">Card name</string>
+    <string name="txt_series">Series number</string>
+    <string name="txt_booking_success">Booking success</string>
+    <string name="txt_enter_pin_code">Enter the pin code</string>
+    <string name="txt_err_pin_code">Wrong pin code</string>
+    <string name="txt_no_card">You don\\\'t have any bank card. Please add to user this method!</string>
+    <string name="txt_delete_book">Cancel reservation</string>
+
+</resources>

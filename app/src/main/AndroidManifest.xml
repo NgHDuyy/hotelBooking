@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="locale|orientation"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="HardcodedDebugMode"
+        tools:targetApi="31">
+        <activity
+            android:name=".view.activity.booking.BookingDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.booking.MyBookingRoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.room.BookRoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.room.ChooseRoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.find.LocationChoosedDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.room.HotelPreviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.find.FindLocationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.user.LogInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.user.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.splash.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.activity.main.MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

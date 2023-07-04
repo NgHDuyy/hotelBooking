@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".view.activity.user.LogInActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ToolbarTheme"
+            app:contentInsetEnd="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetRight="0dp"
+            app:contentInsetStart="0dp"
+            app:layout_scrollFlags="scroll|enterAlways|snap">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+
+                <ImageView
+                    android:id="@+id/ic_back"
+                    android:layout_width="52dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp"
+                    android:visibility="gone"
+                    app:srcCompat="@drawable/ic_back"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/svn_avo_bold"
+                    android:text="@string/txt_log_in"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/size_title"
+                    android:textStyle="bold"
+                    tools:ignore="TextContrastCheck" />
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_16">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="6dp"
+            app:cardBackgroundColor="@color/colorWhite"
+            app:cardCornerRadius="30dp"
+            app:contentPaddingBottom="@dimen/margin_6"
+            app:contentPaddingLeft="@dimen/margin_20"
+            app:contentPaddingRight="@dimen/margin_20"
+            app:contentPaddingTop="@dimen/margin_6">
+
+            <EditText
+                android:id="@+id/et_sdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:drawableStart="@drawable/ic_phone"
+                android:drawablePadding="@dimen/margin_10"
+                android:fontFamily="@font/svn_avo"
+                android:hint="@string/txt_phone"
+                android:inputType="textEmailAddress"
+                android:paddingTop="@dimen/margin_10"
+                android:paddingBottom="@dimen/margin_10"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/textSize16"
+                tools:ignore="Autofill" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tv_incorrect_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:drawablePadding="4dp"
+            android:gravity="center_vertical"
+            android:text="@string/txt_incorrect_phone"
+            android:textColor="@color/colorRed"
+            android:textSize="@dimen/textSize14"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:drawableStartCompat="@drawable/ic_warning" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:elevation="6dp"
+            app:cardBackgroundColor="@color/colorWhite"
+            app:cardCornerRadius="30dp"
+            app:contentPaddingBottom="@dimen/margin_6"
+            app:contentPaddingLeft="@dimen/margin_20"
+            app:contentPaddingRight="@dimen/margin_20"
+            app:contentPaddingTop="@dimen/margin_6">
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:drawableStart="@android:drawable/ic_secure"
+                android:drawablePadding="@dimen/margin_10"
+                android:fontFamily="@font/svn_avo"
+                android:hint="@string/txt_password"
+                android:inputType="textPassword"
+                android:paddingTop="@dimen/margin_10"
+                android:paddingBottom="@dimen/margin_10"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/textSize16"
+                tools:ignore="Autofill" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tv_incorrect_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:drawablePadding="4dp"
+            android:gravity="center_vertical"
+            android:text="@string/txt_incorrect_password"
+            android:textColor="@color/colorRed"
+            android:textSize="@dimen/textSize14"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:drawableStartCompat="@drawable/ic_warning" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_log_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:elevation="6dp"
+            app:cardBackgroundColor="@color/colorBlue"
+            app:cardCornerRadius="30dp"
+            app:contentPaddingBottom="@dimen/margin_6"
+            app:contentPaddingLeft="@dimen/margin_20"
+            app:contentPaddingRight="@dimen/margin_20"
+            app:contentPaddingTop="@dimen/margin_6">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/margin_8"
+                android:paddingTop="@dimen/margin_10"
+                android:paddingEnd="@dimen/margin_8"
+                android:paddingBottom="@dimen/margin_10"
+                android:text="@string/txt_log_in"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/textSize18"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <ProgressBar
+            android:id="@+id/pb_update_data"
+            style="@style/DartNinjaProgressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/tv_login_fail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:drawablePadding="4dp"
+            android:gravity="center_vertical"
+            android:text="@string/txt_login_fail"
+            android:textColor="@color/colorRed"
+            android:textSize="@dimen/textSize14"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:drawableStartCompat="@drawable/ic_warning" />
+
+        <TextView
+            android:id="@+id/tv_login_success"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:drawablePadding="4dp"
+            android:gravity="center_vertical"
+            android:text="@string/txt_login_success"
+            android:textColor="@color/colorGreen"
+            android:textSize="@dimen/textSize14"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:drawableStartCompat="@drawable/ic_done" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_16"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/svn_avo_bold"
+            android:text="@string/txt_have_not_account"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/textSize14"
+            tools:ignore="TextContrastCheck" />
+
+
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:fontFamily="@font/svn_avo_bold"
+            android:text="@string/txt_register_now"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/textSize14"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_home">Trang chủ</string>
+    <string name="txt_recommend">Gợi ý</string>
+    <string name="txt_favorite">Yêu thích</string>
+    <string name="txt_account">Tài khoản</string>
+
+    <string name="txt_find_room">Tìm địa điểm, khách sạn</string>
+    <string name="txt_booking_description">Đặt phòng linh hoạt, giá tốt nhất</string>
+    <string name="txt_near_you">Gần bạn</string>
+    <string name="txt_hourly">Theo giờ</string>
+    <string name="txt_overnight">Qua đêm</string>
+    <string name="txt_by_date">Theo ngày</string>
+
+    <string name="txt_login_register">Đăng nhập/ Đăng ký</string>
+    <string name="txt_log_in">ĐĂNG NHẬP</string>
+    <string name="txt_have_not_account">Bạn chưa có tài khoản?</string>
+    <string name="txt_register">Đăng ký</string>
+    <string name="txt_register_now">Đăng ký ngay</string>
+
+    <string name="txt_email">Email</string>
+    <string name="txt_password">Mật khẩu</string>
+    <string name="txt_re_password">Xác nhận mật khẩu</string>
+    <string name="txt_name">Tên</string>
+    <string name="txt_phone_number">Số điện thoại</string>
+
+    <string name="txt_invalidate_name">Tên không được để trống</string>
+    <string name="txt_invalidate_phone">Số điện thoại không hợp lệ</string>
+    <string name="txt_invalidate_email">Email không hợp lệ</string>
+    <string name="txt_invalidate_password">Mật khẩu không hợp lệ</string>
+    <string name="txt_invalidate_re_password">Mật khẩu không khớp</string>
+
+    <string name="txt_register_fail">Tài khoản đã tồn tại</string>
+    <string name="txt_register_success">Đăng ký thành công</string>
+
+    <string name="txt_login_fail">Email hoặc mật khẩu không đúng</string>
+    <string name="txt_login_success">Đăng nhập thành công</string>
+
+    <string name="txt_my_page">Trang cá nhân</string>
+    <string name="txt_my_booking">Đặt phòng của tôi</string>
+    <string name="txt_my_favorite">Khách sạn yêu thích</string>
+
+    <string name="txt_setting">Cài đặt</string>
+    <string name="txt_notification">Thông báo</string>
+    <string name="txt_language">Ngôn ngữ</string>
+
+    <string name="txt_information">Thông tin</string>
+    <string name="txt_version">Phiên bản</string>
+    <string name="txt_contact">Liên hệ</string>
+    <string name="txt_log_out">Đăng xuất</string>
+
+    <string name="select_edition">Chọn ngôn ngữ</string>
+
+    <string name="txt_find">Tìm kiếm</string>
+    <string name="txt_recent_search">Tìm kiếm gần đây</string>
+    <string name="txt_find_location">Tìm kiếm địa điểm</string>
+
+    <string name="txt_Ha_Noi">Hà Nội</string>
+
+    <string name="txt_choose_location">Vui lòng chọn khu vực</string>
+    <string name="txt_intro">Giới thiệu</string>
+    <string name="txt_choose_room">Chọn phòng</string>
+    <string name="txt_list_room">Danh sách phòng</string>
+    <string name="txt_room_info">Thông tin phòng</string>
+    <string name="txt_see_more">Xem chi tiết</string>
+    <string name="txt_book">Đặt phòng</string>
+    <string name="single_bed">Giường đơn</string>
+    <string name="double_bed">Giường đôi</string>
+    <string name="txt_tax">Đã bao gồm thuế và dịch vụ</string>
+    <string name="txt_result_search">Kết quả tìm kiếm</string>
+    <string name="txt_type_bed">Loại giường</string>
+    <string name="txt_quantity_people">Số lượng người tối đa</string>
+    <string name="txt_on_backpress">Lặp lại để thoát!</string>
+    <string name="txt_phone">Số điện thoại</string>
+    <string name="txt_incorrect_phone">Sai số điện thoại</string>
+    <string name="txt_incorrect_password">Mật khẩu phải lớn hơn 6 ký tự</string>
+    <string name="txt_booking">Đặt phòng</string>
+    <string name="txt_user_info">Thông tin người dùng</string>
+    <string name="txt_from">Từ:</string>
+    <string name="txt_to">Đến:</string>
+    <string name="txt_pay_by_card">Thanh toán bằng thẻ ngân hàng</string>
+    <string name="txt_pay_in_cash">Thanh toán bằng tiền mặt</string>
+    <string name="txt_choose_type_pay">Chọn một phương thức thanh toán</string>
+    <string name="txt_confirm_book">Bạn có xác nhận đặt phòng không?</string>
+    <string name="txt_cancle">Hủy</string>
+    <string name="txt_confirm">Xác nhận</string>
+    <string name="txt_choose_card">Chọn thẻ của bạn</string>
+    <string name="txt_card_name">Tên thẻ</string>
+    <string name="txt_series">Số thẻ</string>
+    <string name="txt_booking_success">Đặt phòng thành công</string>
+    <string name="txt_enter_pin_code">Nhập mã pin</string>
+    <string name="txt_err_pin_code">Sai mã pin</string>
+    <string name="txt_no_card">Bạn chưa thêm bất kì thẻ ngân hàng nào. Hãy thêm để sử dụng phương thức này</string>
+    <string name="txt_delete_book">Hủy đặt phòng</string>
+
+
+</resources>

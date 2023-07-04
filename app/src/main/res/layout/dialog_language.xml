@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/margin_12">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_4">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_16"
+            android:layout_marginTop="@dimen/margin_12"
+            android:layout_marginRight="@dimen/margin_16"
+            android:fontFamily="@font/svn_avo_bold"
+            android:text="@string/select_edition"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="@dimen/size_title" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_marginTop="@dimen/margin_12"
+            android:layout_marginBottom="@dimen/margin_16"
+            android:paddingLeft="@dimen/margin_20"
+            android:paddingRight="@dimen/margin_20">
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/rd_english"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:fontFamily="@font/svn_avo"
+                android:paddingLeft="@dimen/margin_8"
+                android:paddingTop="@dimen/margin_12"
+                android:paddingRight="@dimen/margin_8"
+                android:paddingBottom="@dimen/margin_12"
+                android:text="@string/english"
+                android:textColor="@color/colorTextBlack"
+                android:textSize="@dimen/textSize15"
+                app:buttonTint="@color/colorPrimary" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/rd_vietnam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/svn_avo"
+                android:paddingLeft="@dimen/margin_8"
+                android:paddingTop="@dimen/margin_12"
+                android:paddingRight="@dimen/margin_8"
+                android:paddingBottom="@dimen/margin_12"
+                android:text="@string/vietnam"
+                android:textColor="@color/colorTextBlack"
+                android:textSize="@dimen/textSize15"
+                app:buttonTint="@color/colorPrimary" />
+        </RadioGroup>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

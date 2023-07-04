@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#48BCAA</color>
+    <color name="colorPrimaryDark">#48BCAA</color>
+    <color name="colorAccent">#FF8000</color>
+    <color name="colorAccentNight">#F7A033</color>
+    <color name="colorTextBlack">#303030</color>
+    <color name="colorBackground">#FBFBFB</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorWhite_2">#FBFBFB</color>
+    <color name="colorWhite_3">#E4DEDE</color>
+    <color name="colorBackgroundQuestion">#E5E5E5</color>
+
+    <color name="colorGrayRim">#fbfdfc</color>
+    <color name="colorGray">#737373</color>
+    <color name="colorGray_2">#AEAFAF</color>
+    <color name="colorGray_3">#CFFAFAFA</color>
+    <color name="colorGray_5">#FAFAFA</color>
+    <color name="colorGray_6">#999999</color>
+    <color name="colorGray_7">#D6D8DC</color>
+    <color name="colorGray7">#F6F5F5</color>
+    <color name="colorBlack_3">#63000000</color>
+
+
+    <color name="color_yellow_icon">#FFE939</color>
+    <color name="color_fill_yellow_icon">#F6F3DD</color>
+    <color name="colorRed">#F0626E</color>
+    <color name="colorRed_2">#F3717C</color>
+    <color name="colorRed_3">#DC4653</color>
+
+    <color name="colorGreenBlack">#2E776F</color>
+    <color name="colorGreen">#2E7A71</color>
+    <color name="colorGreen_3">#43887D</color>
+    <color name="colorGreen_4">#1ea684</color>
+    <color name="colorGreen_5">#32BEA6</color>
+    <color name="colorGreen_6">#47BCAA</color>
+    <color name="colorGreen_7">#daf2ee</color>
+    <color name="colorOrange">#FF8801</color>
+
+    <color name="colorYellow">#F9AA33</color>
+    <color name="colorYellow_2">#F1D863</color>
+    <color name="colorYellow_1">#F1D863</color>
+    <color name="colorBlue_2">#5B92FF</color>
+    <color name="colorBlue">#3258A3</color>
+
+    <color name="colorBlack">#2B2B2B</color>
+    <color name="colorBlack_2">#000000</color>
+    <color name="colorBlack_4">#CC000000</color>
+    <color name="colorBlack_6">#4F4F4F</color>
+    <color name="colorGray_9">#EDF5F3</color>
+
+    <color name="colorBrown">#BBA033</color>
+
+    <color name="tone1">#ff1744</color>
+    <color name="tone2">#ffab00</color>
+    <color name="tone3">#4caf50</color>
+    <color name="tone4">#3d5afe</color>
+    <color name="tone5">#616161</color>
+
+    <color name="colorGreen_8">#1F32BEA6</color>
+    <color name="colorRed_5">#1FFA5353</color>
+
+    <color name="gray_50">#80737373</color>
+    <color name="color_close">#4CC7B4</color>
+
+</resources>
